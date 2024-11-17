@@ -1,0 +1,58 @@
+.categories {
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .categories h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cake-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cake-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .cake-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .cake-item img {
+    border-radius: 10px;
+  }
+  
+  .cake-item h3 {
+    margin: 15px 0 10px;
+  }
+  
+  .cake-item p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .cake-item button {
+    padding: 10px 20px;
+    background-color: #d36f6f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .cake-item button:hover {
+    background-color: #b95555;
+  }
+  

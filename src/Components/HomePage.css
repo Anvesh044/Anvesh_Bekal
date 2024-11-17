@@ -1,0 +1,21 @@
+.home {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    color: #d36f6f;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    margin: 15px 0 30px;
+  }
+  
+  .home .featured-image {
+    size-adjust: 5px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+  }
+  

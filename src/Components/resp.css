@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .header nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .categories .cake-list {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
